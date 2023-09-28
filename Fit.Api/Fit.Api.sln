@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fit.Api", "Fit.Api.csproj", "{2A5DA3B8-0C2D-4E56-8EDC-0B097D68CDDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fit.AppDomain", "..\Fit.AppDomain\Fit.AppDomain.csproj", "{C788CBAC-7950-4FDA-B69C-6E7821B173C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fit.Infra", "..\Fit.Infra\Fit.Infra.csproj", "{1DB9901E-0BC4-464A-97DD-C15907B07E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A5DA3B8-0C2D-4E56-8EDC-0B097D68CDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5DA3B8-0C2D-4E56-8EDC-0B097D68CDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5DA3B8-0C2D-4E56-8EDC-0B097D68CDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5DA3B8-0C2D-4E56-8EDC-0B097D68CDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C788CBAC-7950-4FDA-B69C-6E7821B173C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C788CBAC-7950-4FDA-B69C-6E7821B173C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C788CBAC-7950-4FDA-B69C-6E7821B173C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C788CBAC-7950-4FDA-B69C-6E7821B173C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB9901E-0BC4-464A-97DD-C15907B07E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB9901E-0BC4-464A-97DD-C15907B07E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB9901E-0BC4-464A-97DD-C15907B07E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB9901E-0BC4-464A-97DD-C15907B07E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54912697-42C8-498D-992D-A619CD40A6B6}
+	EndGlobalSection
+EndGlobal

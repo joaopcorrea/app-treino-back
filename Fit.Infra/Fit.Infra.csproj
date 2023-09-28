@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ApiSettings\IoC\" />
+    <Folder Include="ApiSettings\AppSettings\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fit.AppDomain\Fit.AppDomain.csproj" />
+  </ItemGroup>
+
+</Project>
